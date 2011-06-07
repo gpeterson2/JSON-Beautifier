@@ -1,7 +1,7 @@
 #! /usr/bin/evn python
 
 import sys
-from PyQt4 import QtGui
+from PySide import QtGui
 from window import Window
 
 def main():
