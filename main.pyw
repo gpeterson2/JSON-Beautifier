@@ -1,8 +1,12 @@
 #! /usr/bin/evn python
 
+''' The main program. '''
+
 import sys
+
 from PySide import QtGui
-from window import Window
+
+from beautifier.window import Window
 
 def main():
     app = QtGui.QApplication(sys.argv)
